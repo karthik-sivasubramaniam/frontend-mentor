@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --blue-primary: hsl(212, 21%, 14%);
+    --blue-secondary: hsl(228, 12%, 48%);
+}
+
+.text-primary {
+    font-family: 'Fraunces', serif;
+}
+
+.text-secondary {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.4rem;
+}
