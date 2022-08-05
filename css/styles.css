@@ -42,19 +42,9 @@ p {
 }
 
 .hero {
-    width: 26rem !important;
-    height: 39rem;
+    min-width: 26rem;
     background-image: url('../images/image-product-desktop.jpg');
     background-size: cover;
-}
-
-@media (max-width: 767px) {
-    .hero {
-        max-width: 100vw !important;
-        height: 70vw;
-        background-image: url('../images/image-product-mobile.jpg');
-        background-size: cover;
-    }
 }
 
 .main-content {
@@ -92,4 +82,34 @@ p {
 
 .body-text {
     margin: 2rem 0;
+}
+
+@media (max-width: 767px) {
+
+    .card-container {
+        height: 100%;
+    }
+
+    .hero {
+        background-image: url('../images/image-product-mobile.jpg');
+        background-size: cover;
+        min-height: 70vw;
+    }
+
+    .heading {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    p, .cta {
+        font-size: 1.8rem;
+    }
+
+    .product-type, .before-price {
+        font-size: 1.4rem;
+    }
+
+    .cta > img {
+        width: 1.8rem;
+    }
 }
