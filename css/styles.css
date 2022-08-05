@@ -113,3 +113,8 @@ p {
         width: 1.8rem;
     }
 }
+
+.attribution {
+    position: absolute;
+    bottom: 1%;
+}
